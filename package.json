@@ -1,0 +1,21 @@
+{
+  "name": "effect-native-perf-test",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@bit-js/byte": "^1.5.3",
+    "@effect/platform": "^0.55.5",
+    "@effect/platform-bun": "^0.36.5",
+    "@effect/schema": "^0.67.18",
+    "@effect/sql": "^0.3.6",
+    "@effect/sql-sqlite-bun": "^0.3.7",
+    "effect": "^3.2.8",
+    "elysia": "^1.0.22"
+  }
+}
