@@ -1,6 +1,6 @@
 import { Database } from 'bun:sqlite';
 
-const command = `oha -n=100000 --json --no-tui --ipv4 --method=POST http://127.0.0.1:3000/items -d="{ name: "foo" }"`;
+const command = `oha -n=100000 --json --no-tui --ipv4 --method=POST http://127.0.0.1:3000/users -d="{ name: "foo" }"`;
 const db = new Database('./database.db');
 
 for (const item of new Bun.Glob('./src/**/*.ts').scanSync('.')) {
