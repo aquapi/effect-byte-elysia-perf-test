@@ -4,4 +4,5 @@ To run the benchmark:
 bun script.ts
 ```
 
-Requirements: `oha`, `bun`
+Requirements: `oha`, `bun`.
+See the latest results [here](./result.json).
